@@ -1,6 +1,12 @@
-基于qrcode，opencv-python等库
+将文件变成二维码传输~
 
 ## 1.发送端使用方法
+pip安装缺失的python库
+```
+pip install pillow
+pip install opencv-python
+pip install qrcode
+```
 运行QRCODE.py即可将文件转换成二维码串
 
 ```
@@ -26,6 +32,8 @@ python3 server.py  #访问https://[ip]:4443
 
 
 ## 3.使用提醒
+速度不是很快。实测算上丢包大约0.5~1KB/s
+
 对于个别二维码长时间没扫到，可以直接用键盘输入数字指定显示某张二维码
 
 按下空格可以暂停或继续刷新二维码
