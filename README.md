@@ -27,7 +27,7 @@ httpd.socket = ssl.wrap_socket(httpd.socket,
 ```
 运行服务端。然后打开网页，点击[开扫]即可完成后续传输，
 ```
-python3 server.py  #访问https://[ip]:4443
+python3 server.py  #手机访问https://[ip]:4443
 ```
 
 
@@ -41,7 +41,7 @@ python3 server.py  #访问https://[ip]:4443
 可以用方向键控制加速/减速/上一张/下一张二维码
 
 
-## 3.网页demo
+## 4.网页demo
 如果不想自己创建服务端，可以直接使用此demo：
 
 https://luzheminlulu.github.io
